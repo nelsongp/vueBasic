@@ -5,6 +5,7 @@
       <p>Paragraph</p>
       <p>first Name: {{firstName}}</p>
       <p>last Name: {{lastName}}</p>
+      <p>full Name: {{fullName}}</p>
     </div>
   </div>
 </template>
@@ -23,6 +24,11 @@ export default {
         relatedItems: [2, 51, 31, 27, 96]
       }
     };
+  },
+  computed: {
+    fullName() {
+      return this.firstName + " " + this.lastName;
+    }
   }
 };
 </script>
