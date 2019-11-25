@@ -15,7 +15,7 @@
   </div>
 </template>
 <script>
-import posts from "@/data.js";
+//import posts from "@/data.js";
 export default {
   name: "home",
   components: {},
