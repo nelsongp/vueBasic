@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
@@ -26,3 +27,7 @@ export default new Router({
         }
     ]
 })
+=======
+import Vue from 'vue';
+import Router from 'vue-router';
+>>>>>>> master
